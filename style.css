@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background: #181818;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+    font-family: "Source Code Pro", monospace;
+    line-height: 1.6;
+}
+
+header {
+    background: #332245;
+    color: white;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ecdaff;
+    text-decoration: none;
+    tranition: 0.5s;
+}
+
+nav ul li a:hover {
+    background: #ecdaff;
+    color: #332245;
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+.hero {
+    color: #ecdaff;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.6;
+    padding: 80px 20px;
+    max-width: 650px;
+}
+
+.hero .btn {
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+    color: #ecdaff;
+}
+
+#about {
+  line-height: 1.6;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 950px;
+}
+
+.friends-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.friends-card {
+    border: 2px solid #9e6cd1;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 280px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#foto1 {
+    width: 230px;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+#foto2 {
+    width: 230px;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+#foto3 {
+    width: 230px;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+#foto4 {
+    width: 230px;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+#foto5 {
+    width: 230px;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+#foto6 {
+    width: 230px;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+footer {
+  margin-top: auto;
+    background: #332245;
+    color: #ecdaff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+@media (max-width: 768px) {
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+    
+    .maps {
+      padding: 20px;
+      width: 350px;
+      height: 350px;
+    }
+}
